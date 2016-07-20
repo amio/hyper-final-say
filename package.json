@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-final-say",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Make your configurations override other plugins.",
   "main": "index.js",
   "keywords": [
