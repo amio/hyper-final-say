@@ -1,0 +1,15 @@
+{
+  "name": "hyperterm-final-say",
+  "version": "0.0.1",
+  "description": "Make your configrations override other plugins.",
+  "main": "index.js",
+  "keywords": [
+    "hyperterm",
+    "hyperterm-plugin",
+    "configration",
+    "overide"
+  ],
+  "repository": "amio/hyperterm-final-say",
+  "author": "Amio <amio.cn@gmail.com>",
+  "license": "MIT"
+}
