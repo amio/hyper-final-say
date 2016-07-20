@@ -1,14 +1,20 @@
-const os = require('os')
-const path = require('path')
+const { resolve } = require('path')
+const { homedir } = require('os')
+const userConfigPath = resolve(homedir(), '.hyperterm.js')
 
 module.exports.decorateConfig = config => {
   let userConfig = {}
+
   try {
-    const userConfigPath = path.join(os.homedir(), '.hyperterm.js')
     delete require.cache[userConfigPath]
     userConfig = require(userConfigPath).config
   } catch (e) {
     console.error(e)
   }
+
+  userConfig.css = [config.css, userConfig.css || ''].join('\n')
+  userConfig.termCSS = [config.termCSS, userConfig.termCSS || ''].join('\n')
+  userConfig.fontSize = userConfig.fontSize || 12
+
   return Object.assign({}, config, userConfig)
 }
