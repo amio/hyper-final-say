@@ -1,6 +1,6 @@
 # [hyperterm](https://hyperterm.org/)-final-say [![npm version](https://img.shields.io/npm/v/hyperterm-final-say.svg?style=flat-square)](http://www.npmjs.com/package/hyperterm-final-say)
 
-Let user's configuration overrides plugins'.
+Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyperterm.js`.
 
 ### Install
 
