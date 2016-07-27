@@ -11,5 +11,8 @@
   ],
   "repository": "amio/hyperterm-final-say",
   "author": "Amio <amio.cn@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "deep-assign": "^2.0.0"
+  }
 }
