@@ -1,5 +1,7 @@
 # [hyperterm](https://hyperterm.org/)-final-say [![npm version](https://img.shields.io/npm/v/hyperterm-final-say.svg?style=flat-square)](http://www.npmjs.com/package/hyperterm-final-say)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amio/hyperterm-final-say.svg)](https://greenkeeper.io/)
+
 Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyperterm.js`.
 
 ### Install
