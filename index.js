@@ -20,6 +20,8 @@ module.exports.decorateConfig = config => {
   userConfig.css = [config.css || '', userConfig.css || ''].join('\\n');
   userConfig.termCSS = [config.termCSS || '', userConfig.termCSS || ''].join('\\n');
   userConfig.fontSize = userConfig.fontSize || 12;
+  userConfig.backgroundColor = config.backgroundColor;
+  userConfig.borderColor = config.borderColor;
 
   return deepAssign({}, config, userConfig);
 };
