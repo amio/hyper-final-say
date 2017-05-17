@@ -1,7 +1,7 @@
 {
   "name": "hyperterm-final-say",
   "version": "1.1.0",
-  "description": "Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyperterm.js`.",
+  "description": "Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyper.js`.",
   "main": "index.js",
   "keywords": [
     "hyperterm",

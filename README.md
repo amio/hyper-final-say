@@ -1,10 +1,10 @@
 # [hyperterm](https://hyperterm.org/)-final-say [![npm version](https://img.shields.io/npm/v/hyperterm-final-say.svg?style=flat-square)](http://www.npmjs.com/package/hyperterm-final-say)
 
-Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyperterm.js`.
+Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyper.js`.
 
 ### Install
 
-1. Open HyperTerm's preferences with `Cmd+,` (or manually at `~/.hyperterm.js`) with your editor.
+1. Open HyperTerm's preferences with `Cmd+,` (or manually at `~/.hyper.js`) with your editor.
 2. Put `hyperterm-final-say` as **last one** of plugin list, like so:
 
   ```js
