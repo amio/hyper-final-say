@@ -1,27 +1,22 @@
+const os = require('os');
+const path = require('path');
 const deepAssign = require('deep-assign');
-const {
-  resolve
-} = require('path');
-const {
-  homedir
-} = require('os');
-const userConfigPath = resolve(homedir(), '.hyper.js');
+
+const localConfigPath = path.join(os.homedir(), '.hyper.js');
 
 module.exports.decorateConfig = config => {
   let userConfig = {};
 
   try {
-    delete require.cache[userConfigPath];
-    userConfig = require(userConfigPath).config;
+    delete require.cache[localConfigPath];
+    userConfig = require(localConfigPath).config;
   } catch (e) {
     console.error('ERR:', e);
+    return config
   }
 
-  userConfig.css = [config.css || '', userConfig.css || ''].join('\\n');
-  userConfig.termCSS = [config.termCSS || '', userConfig.termCSS || ''].join('\\n');
-  userConfig.fontSize = userConfig.fontSize || 12;
-  userConfig.backgroundColor = config.backgroundColor;
-  userConfig.borderColor = config.borderColor;
+  userConfig.css = [config.css, userConfig.css].join('\n');
+  userConfig.termCSS = [config.termCSS, userConfig.termCSS].join('\n');
 
   return deepAssign({}, config, userConfig);
 };
