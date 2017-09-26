@@ -1,7 +1,7 @@
 {
-  "name": "hyperterm-final-say",
+  "name": "hyper-final-say",
   "version": "1.1.1",
-  "description": "Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyper.js`.",
+  "description": "Allows local config overrides any plugin or theme settings.",
   "main": "index.js",
   "keywords": [
     "hyper",
@@ -9,7 +9,7 @@
     "configration",
     "override"
   ],
-  "repository": "amio/hyperterm-final-say",
+  "repository": "amio/hyper-final-say",
   "author": "Amio <amio.cn@gmail.com>",
   "license": "MIT",
   "dependencies": {
