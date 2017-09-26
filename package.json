@@ -1,13 +1,13 @@
 {
   "name": "hyperterm-final-say",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Allows user-set overrides of any plugin or theme settings applied on top of the defaults `./.hyper.js`.",
   "main": "index.js",
   "keywords": [
-    "hyperterm",
-    "hyperterm-plugin",
+    "hyper",
+    "hyper-plugin",
     "configration",
-    "overide"
+    "override"
   ],
   "repository": "amio/hyperterm-final-say",
   "author": "Amio <amio.cn@gmail.com>",
