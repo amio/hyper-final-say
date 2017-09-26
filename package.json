@@ -1,6 +1,6 @@
 {
   "name": "hyper-final-say",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Allows local config overrides any plugin or theme settings.",
   "main": "index.js",
   "keywords": [
