@@ -7,7 +7,8 @@
     "hyper",
     "hyper-plugin",
     "configration",
-    "override"
+    "override",
+    "settings"
   ],
   "repository": "amio/hyper-final-say",
   "author": "Amio <amio.cn@gmail.com>",
